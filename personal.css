@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* This is Header Section Area CSS */
+
+nav{
+    width: 1265px;
+    height: 50px;
+    margin-top: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+nav .main_lo{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo img{
+    height: 50px;
+    margin-left: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li{
+    margin-top: 10px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav ul a:hover{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+nav ul .span{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 50px;
+}
+
+/* This is Abo me Section Area CSS */
+
+.abo{
+    height: 500px;
+    width: 1265px;
+}
+
+.abo .ab_main{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    background-image: url(Pic/bg\ img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.abo .ab_main .about_text{
+    padding: 50px;
+}
+.abo .ab_main .about_text h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.abo .ab_main .about_text h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.abo .ab_main .about_text p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(57, 54, 54);
+}
+.abo .ab_main .about_text a{
+    margin-top: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: aqua;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+
+
+.abo .ab_main .about_img img{
+    margin-top: 15px;
+    height: 350px;
+}
+
+
+/* This Is Main About Section Area - */
+
+.ab_sec{
+    height: 800px;
+    width: 1265px;
+}
+
+.ab_sec .about_main{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    background-image: url(Pic/bui\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ab_sec .about_main .ab-1 h1{
+    margin-top: 50px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;  
+}
+.ab_sec .about_main .ab-1 p{
+    margin-top: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(100, 97, 97);  
+}
+
+.ab_sec .about_main .ab-2 img{
+    height: 500px;
+    padding: 25px;
+}
+
+.ab_sec .ab_h1_sp{
+    margin-left: 500px;
+    padding: 7px 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(12, 237, 237);
+    color: black;
+}
+.ab_sec .ab-1 a{
+    margin-top: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: aqua;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
