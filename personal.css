@@ -111,8 +111,9 @@ nav ul .span{
 /* This Is Main About Section Area - */
 
 .ab_sec{
-    height: 800px;
+    height: 700px;
     width: 1265px;
+    background-color: blueviolet;
 }
 
 .ab_sec .about_main{
@@ -163,6 +164,6 @@ nav ul .span{
     background-color: aqua;
     display: inline-block;
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 7px 10px;
     border-radius: 50px;
 }
