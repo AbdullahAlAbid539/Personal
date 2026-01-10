@@ -108,12 +108,60 @@ nav ul .span{
 }
 
 
+/* this is Skill Section area */
+.skill{
+    width: 1265px;
+}
+
+.skill .sk-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+}
+.skill .sk-2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+}
+.skill .sk-3{
+    margin-top: 30px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding: 20px;
+}
+.skill .sk-1 div img{
+    height: 100px;
+}
+.skill .sk-2 div img{
+    height: 100px;
+}
+.skill .sk-3 div img{
+    height: 100px;
+}
+
+.skill .ab_h1_sp{
+    
+    margin-left: 600px;
+    padding: 7px 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(12, 237, 237);
+    color: black;
+}
+
 /* This Is Main About Section Area - */
 
 .ab_sec{
     height: 700px;
     width: 1265px;
-    background-color: blueviolet;
+    margin-top: 50px;
 }
 
 .ab_sec .about_main{
@@ -130,14 +178,16 @@ nav ul .span{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: black;  
+    color: black;
+    margin-left: 25px;  
 }
 .ab_sec .about_main .ab-1 p{
     margin-top: 30px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: rgb(100, 97, 97);  
+    color: rgb(100, 97, 97);
+    margin-left: 25px;  
 }
 
 .ab_sec .about_main .ab-2 img{
@@ -166,4 +216,89 @@ nav ul .span{
     text-decoration: none;
     padding: 7px 10px;
     border-radius: 50px;
+    margin-left: 50px;
+}
+
+/* This Is Contact Part CSS */
+
+.Contact{
+    height: 700px;
+    width: 1265px;
+}
+.Contact .co-1{
+    background-image: url(Pic/bg\ head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Contact .co-1 h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.Contact .co-1 ul{
+    list-style: none;
+}
+.Contact .co-1 a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 300px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Contact .co-1 .email{
+    padding: 20px 200px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+.Contact .co-1 .whatsapp{
+    padding: 20px 200px;
+    background-color: #25D366;
+    border-radius: 50px;
+    color: white;
+}
+.Contact .co-1 .facebook{
+    padding: 20px 200px;
+    background-color: #1778F2 ;
+    border-radius: 50px;
+    color: white;
+}
+.Contact .co-1 .linkedin{
+    padding: 20px 200px;
+    background-color: #0077B5;
+    border-radius: 50px;
+    color: white;
+}
+.Contact .co-1 .messenger{
+    margin-bottom: 30px;
+    padding: 20px 200px;
+    background-color: 	#9F33FF;
+    border-radius: 50px;
+    color: white;
+}
+.Contact .co-1 .email:hover{
+    background-color: black;
+    color: white;
+}
+.Contact .co-1 .whatsapp:hover{
+    background-color: rgb(7, 255, 7);
+    color: white;
+}
+.Contact .co-1 .facebook:hover{
+    background-color: #003c85;
+    color: white;
+}
+.Contact .co-1 .linkedin:hover{
+    background-color: #0699e8;
+    color: black;
+}
+.Contact .co-1 .messenger:hover{
+    background-color: blue;
+    color: white;
 }
