@@ -39,6 +39,8 @@ nav ul a{
 nav ul a:hover{
     color: aqua;
     border-bottom: 2px solid aqua;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 nav ul .span{
     text-decoration: none;
@@ -216,7 +218,7 @@ nav ul .span{
     text-decoration: none;
     padding: 7px 10px;
     border-radius: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 /* This Is Contact Part CSS */
@@ -301,4 +303,232 @@ nav ul .span{
 .Contact .co-1 .messenger:hover{
     background-color: blue;
     color: white;
+}
+
+/* This is Service Section CSS */
+
+.service .ab_h1_sp {
+    margin-left: 580px;
+    padding: 7px 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(12, 237, 237);
+    color: black;
+}
+.service ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+.service a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-left: 125px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.service a:hover{
+    background-color: rgba(26, 115, 232, 0.08);
+    color: #1a73e8;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    font-size: 18px;
+}
+
+.service .se-1-1st{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 85px;
+    border-radius: 50px;
+}
+.service .se-1-2nd{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 107px;
+    border-radius: 50px;
+}
+
+/* 
+THIS SERVICE HTML CSS AREA */
+
+.frontend .main_ser{
+    margin-top: 20px;
+    display: flex;
+    gap: 100px;
+    width: 1285px;
+    height: 500px;
+    background-image: url(Pic/bg\ head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .frontend .front{
+    width: 1265px;
+    height: 500px;
+    background-image: url(Pic/bg\ head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.frontend .front h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #222121;
+    margin-top: 10px;
+    padding: 20px;
+}
+.frontend .front p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(61, 58, 58);
+    margin-top: 10px; 
+    padding: 20px;
+}
+.frontend .front a{
+    margin-top: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(0, 238, 238);
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.frontend .serv-img img {
+    width: 650px;
+    margin-top: 50px;
+}
+
+/* MAIN Testimonial AREA */
+.Testimonial .main_testimonial{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.main_testimonial img{
+    width: 500px;
+    margin-left: 75px;
+}
+
+.Testimonial .ab_h1_sp{
+    margin-top: 100px;
+    margin-left: 580px;
+    padding: 7px 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(12, 237, 237);
+    color: black;
+}
+
+/* TESTIMONIAL AREA CSS  */
+
+.main_react {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    background-image: url(Pic/bg\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_mern {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    background-image: url(Pic/bg\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_react h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+}
+.main_mern h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+}
+.main_react p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(166, 157, 157);
+    padding: 20px;
+}
+.main_mern p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.main_react a{
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(166, 157, 157);
+    padding: 7px 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.main_mern a{
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(166, 157, 157);
+    padding: 7px 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.main_react a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.main_mern a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main_react img{
+    width: 500px;
+    padding: 50px;
+}
+.main_mern img{
+    width: 500px;
+    padding: 50px;
 }
