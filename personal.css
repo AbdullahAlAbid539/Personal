@@ -532,3 +532,130 @@ THIS SERVICE HTML CSS AREA */
     width: 500px;
     padding: 50px;
 }
+
+footer{
+    height: 200px;
+    width: 1440px;
+    background-color: gray;
+}
+footer h3{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: -650px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main_footer{
+    display: flex;
+}
+.main_footer .image img{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.main_footer .icon ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+.main_footer .icon ul a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 7px 10px;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.main_footer .ab-f-s{
+    display: flex;
+    gap: 25px;
+}
+.main_footer .ab-f-s ul{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 300px;
+}
+.main_footer .ab-f-s a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVE DESIGN */
+/* ========================= */
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    nav .logo img{
+        margin-left: 10px;
+    }
+    nav .main_lo{
+        flex-direction: column;        
+    }
+    nav ul a{
+        display: inline-block;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 9.5px;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .abo{
+        width: 100%;
+        margin-top: 45px;
+    }
+    .abo .ab_main{
+        width: 100%;
+        flex-direction: column;
+        background-size: cover;
+        padding: 10%;
+    }
+    .abo .ab_main .about_text{
+        padding: 30px;
+    }
+    .abo .ab_main .about_img img{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .skill{
+        width: 100%;
+        margin-top: 400px;
+    }
+    .skill .ab_h1_sp{
+        margin-left: 50%;
+    }
+    .skill .sk-1{
+        width: 100%;
+        gap: 10px;
+        height: 50px;
+    }
+    .skill .sk-2{
+        width: 100%;
+        gap: 8px;
+        height: 50px;
+    }
+    .skill .sk-3{
+        width: 100%;
+        gap: 7px;
+        height: 50px;
+        margin-left: 5%;
+    }
+    
+
+
+}
