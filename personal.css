@@ -592,7 +592,7 @@ footer h3{
 }
 
 /* ========================= */
-/* 📱 RESPONSIVE DESIGN */
+/*  RESPONSIVE DESIGN */
 /* ========================= */
 @media screen and (max-width: 768px){
     body{
@@ -602,10 +602,10 @@ footer h3{
         width: 100%;
     }
     nav .logo img{
-        margin-left: 10px;
+        margin-left: 40%;
     }
     nav .main_lo{
-        flex-direction: column;        
+        flex-direction: column;      
     }
     nav ul a{
         display: inline-block;
@@ -613,6 +613,7 @@ footer h3{
         font-size: 9.5px;
         font-weight: 500;
         width: 100%;
+        margin-left: 6px;
     }
 
     .abo{
@@ -630,7 +631,7 @@ footer h3{
     }
     .abo .ab_main .about_img img{
         width: 100%;
-        margin-left: 5%;
+        padding: 2px;
     }
     .skill{
         width: 100%;
@@ -641,7 +642,7 @@ footer h3{
     }
     .skill .sk-1{
         width: 100%;
-        gap: 10px;
+        gap: 8px;
         height: 50px;
     }
     .skill .sk-2{
@@ -655,7 +656,89 @@ footer h3{
         height: 50px;
         margin-left: 5%;
     }
-    
+    .ab_sec{
+        width: 100%;
+    }
+    .ab_sec .ab_h1_sp{
+        margin-left: 50%;
+    }
+    .ab_sec .about_main{
+        width: 100%;
+        flex-direction: column;
+        background-size: cover;
+        padding: 10%;
+    }
+    .ab_sec .about_main .ab-2 img{
+        width: 100%;
+        padding: 2px;
+    }
+
+
+    .service{
+        width: 100%;
+        margin-top: 1000px;
+    }
+    .service .ab_h1_sp{
+        margin-left: 50%;
+    }
+    .service ul{
+        flex-direction: column;
+    }
+    .service a{
+        margin-left: 9%;
+    }
+    .service .se-1{
+        margin-left: 9%;
+    }
+    .service .se-2{
+        margin-left: 15%;
+    }
+    .Testimonial{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .Testimonial .main_testimonial{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Testimonial .ab_h1_sp{
+        margin-left: 50%;
+    }
+    .main_testimonial img{
+        width: 100%;
+        padding: 6px;
+        margin-left: 8%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .main_footer{
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .main_footer .image img{
+        margin-left: 10px;
+    }
+    .main_footer .icon ul{
+        flex-direction: row;
+        margin-top: -130px;
+        gap: 0.5px;
+    }
+    .main_footer .ab-f-s ul{
+        margin-top: -100px;
+    }
+    .main_footer .ab-f-s ul a{
+        margin-top: 8px;
+        font-size: 10px;
+        padding: 3px;
+        margin-left: -75px;
+    }
+    footer h3{
+        margin-left: 140px;
+    }
+
 
 
 }
