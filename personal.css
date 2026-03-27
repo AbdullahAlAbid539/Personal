@@ -602,7 +602,7 @@ footer h3{
         width: 100%;
     }
     nav .logo img{
-        margin-left: 40%;
+        margin-left: 30%;
     }
     nav .main_lo{
         flex-direction: column;      
@@ -610,11 +610,17 @@ footer h3{
     nav ul a{
         display: inline-block;
         font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 9.5px;
-        font-weight: 500;
+        font-size: 8px;
+        font-weight: 400;
         width: 100%;
-        margin-left: 6px;
+        margin-left: 0.5px;
     }
+    nav ul .span{
+        display: inline-block;
+        padding: 3px 4px;
+        margin-left: -8px;
+    }
+
 
     .abo{
         width: 100%;
@@ -624,10 +630,9 @@ footer h3{
         width: 100%;
         flex-direction: column;
         background-size: cover;
-        padding: 10%;
     }
     .abo .ab_main .about_text{
-        padding: 30px;
+        padding: 10px;
     }
     .abo .ab_main .about_img img{
         width: 100%;
@@ -635,26 +640,29 @@ footer h3{
     }
     .skill{
         width: 100%;
-        margin-top: 400px;
+        margin-top: 300px;
     }
     .skill .ab_h1_sp{
         margin-left: 50%;
     }
     .skill .sk-1{
         width: 100%;
-        gap: 8px;
+        gap: 2px;
         height: 50px;
+        margin-left: -5%;
     }
     .skill .sk-2{
         width: 100%;
-        gap: 8px;
-        height: 50px;
+        gap: 2px;
+        height: 30px;
+        margin-left: 0px;
+        
     }
     .skill .sk-3{
         width: 100%;
-        gap: 7px;
+        gap: 2px;
         height: 50px;
-        margin-left: 5%;
+        margin-left: 0px;
     }
     .ab_sec{
         width: 100%;
@@ -666,7 +674,6 @@ footer h3{
         width: 100%;
         flex-direction: column;
         background-size: cover;
-        padding: 10%;
     }
     .ab_sec .about_main .ab-2 img{
         width: 100%;
@@ -676,7 +683,7 @@ footer h3{
 
     .service{
         width: 100%;
-        margin-top: 1000px;
+        margin-top: 800px;
     }
     .service .ab_h1_sp{
         margin-left: 50%;
@@ -685,13 +692,7 @@ footer h3{
         flex-direction: column;
     }
     .service a{
-        margin-left: 9%;
-    }
-    .service .se-1{
-        margin-left: 9%;
-    }
-    .service .se-2{
-        margin-left: 15%;
+        margin-left: 0px;
     }
     .Testimonial{
         width: 100%;
@@ -702,12 +703,12 @@ footer h3{
         flex-direction: column;
     }
     .Testimonial .ab_h1_sp{
-        margin-left: 50%;
+        margin-left: 35%;
     }
     .main_testimonial img{
         width: 100%;
-        padding: 6px;
-        margin-left: 8%;
+        padding: 2px;
+        margin-left: 0px;
     }
 
     .footer{
@@ -719,12 +720,13 @@ footer h3{
         flex-direction: column;
     }
     .main_footer .image img{
-        margin-left: 10px;
+        margin-left: 1px;
     }
     .main_footer .icon ul{
         flex-direction: row;
-        margin-top: -130px;
-        gap: 0.5px;
+        margin-top: -150px;
+        gap: 0px;
+        margin-left: -50px;
     }
     .main_footer .ab-f-s ul{
         margin-top: -100px;
@@ -733,11 +735,46 @@ footer h3{
         margin-top: 8px;
         font-size: 10px;
         padding: 3px;
-        margin-left: -75px;
+        margin-left: -100px;
     }
     footer h3{
-        margin-left: 140px;
+        margin-left: 50px;
     }
+
+
+    .Contact{
+        width: 100%;
+        padding: 0%;
+    }
+    .Contact .co-1{
+        margin-top: 50px;
+    }
+
+    .Contact .co-1 ul a{
+        margin-left: 0%;
+        font-size: 10px;
+    }
+    .frontend .main_ser{
+        width: 100%;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .frontend .front h1{
+        padding: 2px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .frontend .front p{
+        padding: 2px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .frontend .serv-img img{
+        width: 100%;
+        padding: 1px;
+        margin-top: -50px;
+    }
+
 
 
 
